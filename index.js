@@ -2,7 +2,7 @@ const {ApolloServer} = require('apollo-server');
 const mongoose = require('mongoose');
 const {MONGOURI} = require('./config');
 
-const PORT = process.env.port || 4000;
+const PORT = process.env.PORT || 4000;
 
 const resolvers = require('./queries/resolvers');
 const typeDefs = require('./queries/typeDefs');
