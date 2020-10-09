@@ -1,5 +1,6 @@
 # eventimer-server
 (SERVER) Event managing app with MongoDB, Express, GraphQL and NodeJs stack.
+This application allows you to create and keep accounting with many habits represented in events. 
 
 ## Getting Started
 ### In the root folder:
