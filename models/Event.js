@@ -5,7 +5,7 @@ const EventSchema = new Schema({
 	body: String,
 	createdAt: String,
 	finish: String,
-	username: String   //¿NECESITO OBJETO USER?
+	username: String
 });
 
 module.exports = model('Event', EventSchema);
